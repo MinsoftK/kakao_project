@@ -3,6 +3,6 @@
 <br/>
 <br/>
 
-* Clone 코딩하는 내용만 들어가는 프로젝트이며, HTML, CSS, JS에 대한 [간략한 설명](https://github.com/MinsoftK/TIL/tree/master/HTML-CSS-JS)을 따로 정리해놨다.
+* Clone 코딩하는 내용만 들어가는 프로젝트이며, HTML, CSS, JS에 대한 [간략한 설명](https://github.com/MinsoftK/TIL/tree/master/HTML-CSS-JS)은 따로 정리해놨다.
 
-* 
+* 파일명과 폴더명은 모두 소문자로 작성한다.
