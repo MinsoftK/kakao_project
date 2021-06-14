@@ -1,4 +1,4 @@
-# Kakao_Clone_Coding
+# Kokoa_Clone_Coding
 * 카카오톡 UI 클론코딩을 통해 나만의 UI를 만들어보며 HTML, CSS를 학습한다. (JS는 사용되지 않는다.)
 * Updating...
 <br/>
