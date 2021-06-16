@@ -5,26 +5,40 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Welcome to KoKoaTalk</title>
+	<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-	<div id="status-bar">
+	<div class="status-bar">
 		<div class="status-bar__column">
 			<span>No Service</span>
-			<svg style="width:10px; height:10px;" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-				<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.111 16.404a5.5 5.5 0 017.778 0M12 20h.01m-7.08-7.071c3.904-3.905 10.236-3.905 14.141 0M1.394 9.393c5.857-5.857 15.355-5.857 21.213 0" />
-			  </svg>
+			<i class="fas fa-wifi"></i>
 		</div>
 		<div class="status-bar__column">
 			<!--Time-->
+			<span>15:46</span>
 		</div>
 		<div class="status-bar__column">
 			<span>11%</span>
 			<!--Battery Icon-->
-			<i class="fas fa-battery-full"></i>
+			<i class="fas fa-battery-full fa-2x"></i>
 			<!--충전 Icon-->
 			<i class="fas fa-bolt"></i>
 		</div>
 	</div>
+
+	<header class="welcome-header">
+		<h1 class="welcome-header__title">Welcome to MinsTalk</h1>
+		<p class="welcome-header__text">If you have a MinsTalk Account, log in with your email or phone number.</p>
+	</header>
+
+	<form class="welcome-login">
+		<input class="welcome-login__id" required type="text" placeholder="Email or phone number"/>
+		<input class="welcome-login__password" required type="password" placeholder="Password"/>
+		<input class="welcome-login__login" type="submit" value="Log in">
+		<input class="welcome-login__signup" type="submit" value="Sign up">
+		<a href="#">Find MinsTalk Account or Password</a>
+	</form>
+
 	<script src="https://kit.fontawesome.com/6a5db0a2e0.js" crossorigin="anonymous"></script>
 </body>
 </html>
