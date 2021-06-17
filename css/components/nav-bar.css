@@ -1,9 +1,23 @@
 .nav {
+	padding:20px 40px;
+	border-top: 1px solid rgba(173, 170, 170, 0.4);
 	background-color: #f9f9fa;
-	padding:10px 40px;
+
+	position: fixed;
+	bottom:0;
+	width:100%;
+	box-sizing: border-box;
+	/*fixed설정을 하고 width설정을 하면 옵션 버튼이 사라진다 그럴때
+	box-sizing으로 해결 가능하다. */
+	
 }
 
 .nav__ul {
 	display:flex;
 	justify-content: space-between;
 }
+
+.nav__a {
+	color:inherit;
+}
+
