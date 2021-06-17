@@ -1,0 +1,25 @@
+.status-bar{
+	display:flex;
+	justify-content: center;
+}
+.status-bar__column{
+	width:33%;
+	/* css hack */
+	/*width에 따라 시계가 space between되도 시계가 중앙에 위치하지 않을 수 있다. 그럴때 css hack을 사용한다.width 설정을 해주고 각각의 element를 선택해 정렬해준다.*/
+}
+.status-bar__column:first-child span{
+	justify-content: flex-start;
+}
+.status-bar__column:nth-child(2){
+	display:flex;
+	justify-content: center;
+}
+.status-bar__column:last-child{
+	display:flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.status-bar__column .fa-battery-full{
+	margin:0px 5px;
+}
