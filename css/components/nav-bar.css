@@ -1,12 +1,12 @@
 .nav {
 	padding:20px 40px;
 	border-top: 1px solid rgba(173, 170, 170, 0.4);
-	background-color: #f9f9fa;
 
 	position: fixed;
 	bottom:0;
 	width:100%;
 	box-sizing: border-box;
+	background-color: white;
 	/*fixed설정을 하고 width설정을 하면 옵션 버튼이 사라진다 그럴때
 	box-sizing으로 해결 가능하다. */
 	
@@ -19,5 +19,34 @@
 
 .nav__a {
 	color:inherit;
+	position:relative;
+	/*absolute 부모 Element*/
 }
 
+
+.nav__notification {
+	background-color: tomato;
+	border-radius: 50%;
+	padding:5px 15px;
+	position: absolute;
+	left:15px;
+	bottom:12px;
+	font-weight: 600;
+	color:white;
+	/*
+	width:20px;
+	height:20px;
+	크기를 주려면 block이여야 한다.
+	display:flex;
+	justify-content:center;
+	align-items: center;
+	*/
+}
+.nav__notification2 {
+	position: absolute;
+	background-color: tomato;
+	width:7px;
+	height: 7px;
+	border-radius: 50%;
+	right:-5px;
+}

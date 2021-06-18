@@ -3,10 +3,13 @@
 	justify-content: center;
 	align-items: center;
 	padding:5px 3px;
+	background-color: white;
 
 	position: fixed;
 	width:100%;
 	box-sizing: border-box;
+	/*padding을 주면 css는 내가 원했던 사이즈를 유지하기 위해서 box size를 늘려버린다.
+	css는 padding만큼 box를 감소시킨다.*/
 }
 .status-bar__column{
 	width:33%;
