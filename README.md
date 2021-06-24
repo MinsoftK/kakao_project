@@ -7,5 +7,5 @@
 
 ## Stack
 * [HTML, CSS, JS](https://github.com/MinsoftK/TIL/tree/master/HTML-CSS-JS)에 대한 간략한 정리내용.
-* ![Block Element Modifier](https://velog.io/@ylem76/BEM) 방식을 사용.
-* Icon : ![Heroicons](https://heroicons.dev/), ![font Awesome](https://fontawesome.com/)
+* [Block Element Modifier](https://velog.io/@ylem76/BEM) 방식을 사용.
+* Icon : [Heroicons](https://heroicons.dev/), [font Awesome](https://fontawesome.com/)
