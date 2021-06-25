@@ -1,9 +1,14 @@
 .user-component {
-	display:flex;
+	justify-content: space-between;
 }
 
-.user-component__column:first-child {
+
+.user-component,
+.user-component__column:first-child,
+.user-component__column:last-child
+ {
 	display:flex;
+	align-items: center;
 }
 
 .user-component__img {
@@ -13,11 +18,9 @@
 }
 
 .user-component__text {
-	display:flex;
-	flex-direction: column;
-	justify-content: center;
 	margin-left:10px;
 }
+
 .user-component__name {
 	font-weight: 600;
 	font-size:18px;
@@ -35,4 +38,18 @@
 .user-component--xl {
 	width:80px;
 	height:80px;
+}
+
+.user-component__img--sm {
+	width:60px;
+	height:60px;
+	border-radius: 25px;
+}
+
+.user-component__name--not-bold {
+	font-weight: 400;
+}	
+
+.user-component__column--grey {
+	color:rgba(0, 0, 0, 0.5)
 }
