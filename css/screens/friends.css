@@ -1,9 +1,12 @@
-#friend-display-link {
-	position:absolute;
-	text-align: center;
+#friends-display-link {
+	/*position:absolute;*/
 	display:block;
+	text-align: center;
 	background-color:#fafafa;
 	padding: 15px 0px;
+	width:100%;
+	
+	/*z-index: 3;*/
 }
 
 #friends-display-link i {

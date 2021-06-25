@@ -1,0 +1,13 @@
+.user-component {
+	display:flex;
+	flex-direction: column;
+}
+
+.user-component__column:first-child {
+	display:flex;
+}
+
+.user-component__img {
+	width:70px;
+	height:70px;
+}
