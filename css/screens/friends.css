@@ -12,3 +12,7 @@
 #friends-display-link i {
 	color:gray;
 }
+
+.friends-screen {
+	padding:0px var(--main-left-space);
+}
