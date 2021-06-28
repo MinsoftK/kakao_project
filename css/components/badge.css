@@ -1,0 +1,19 @@
+.badge {
+	background-color: tomato;
+	border-radius: 50%;
+	padding:5px 10px;
+	font-weight: 600;
+	color:white;
+	/*크기를 주려면 block이여야 한다.
+	display:flex;
+	justify-content:center;
+	align-items: center;
+	*/
+}
+
+.badge2 {
+	background-color: tomato;
+	width:7px;
+	height: 7px;
+	border-radius: 50%;
+}

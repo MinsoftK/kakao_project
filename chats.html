@@ -27,76 +27,47 @@
 	</div>
 
 	<header class="screen-header">
-		<h1 class="screen-header__title">Friends</h1>
+		<h1 class="screen-header__title">Chats</h1>
 		<div class="screen-header__icons">
 			<span><i class="fas fa-search fa-lg"></i></span>
+			<span>
+				<i class="far fa-comment-dots fa-lg"></i>
+			</span>
 			<span><i class="fas fa-music fa-lg"></i></span>
 			<span><i class="fas fa-cog fa-lg"></i></span>
 		</div>
 	</header>
 
-	<div id="friends-display-link">
-		<!-- unique하기 때문에 id를 주자.-->
-		<a>
-			<i class="fas fa-info-circle"></i>Friend's Names Display
-			<i class="fas fa-chevron-right"></i>
-		</a>
-	</div>
-
-	<main class="friends-screen">
-		<div class ="user-component">
-			<div class="user-component__column">
-				<img  class ="user-component__img user-component--xl" 
-				src="https://search.pstatic.net/common/?src=http%3A%2F%2Fcafefiles.naver.net%2F20130718_38%2Ftkscu_1374131453756fAkvT_JPEG%2F%25BA%25B0%25B8%25D4%25B4%25C2%25B0%25F5%25B5%25B9%25C0%25CC.jpg&type=a340"/>
-				<div class="user-component__text">
-					<h4 class="user-component__name">MinsoftK</h4>
-					<!--
-				   
-					<h6 class ="user-component__subtitle">
-						this is test
-					</h6>
-					-->
-				</div>
-			</div>
-			<div class="user-component__column"></div>
-		</div>
-
-		<div class="friends-screen__channel">
-			<div class="friends-screen__channel-header">
-				<span>Channel</span>
-				<i class="fas fa-chevron-up"></i>
-			</div>
+	<main class="main-screen">
 			<div class ="user-component">
 				<div class="user-component__column">
-					<img  class ="user-component__img user-component__img--sm user-component__img--color" 
+					<img  class ="user-component__img user-component__img--xl user-component__img--color" 
 					src="https://search.pstatic.net/common/?src=http%3A%2F%2Fcafefiles.naver.net%2F20130718_38%2Ftkscu_1374131453756fAkvT_JPEG%2F%25BA%25B0%25B8%25D4%25B4%25C2%25B0%25F5%25B5%25B9%25C0%25CC.jpg&type=a340"/>
 					<div class="user-component__text">
 						<h4 class="user-component__name user-component__name--not-bold">MinsoftK</h4>
+						<h6 class ="user-component__subtitle">
+							this is test
+						</h6>
 					</div>
 				</div>
 				<div class="user-component__column user-component__column--grey">
-					<div>
-						<span>2</span>
-						<i class="fas fa-chevron-right"></i>
-					</div>
-					
+					<span class="user-component__time">(local-time)</span>
+					<div class="badge">1</div>
 				</div>
 			</div>
-		</div>
+
 	</main>	
 
 
 	<nav class="nav">
 		<ul class="nav__ul">
-			<li class="nav__li"><a class="nav__a" href="friends.html"><i class="fas fa-user fa-2x"></i></a></li>
+			<li class="nav__li"><a class="nav__a" href="friends.html"><i class="far fa-user fa-2x"></i></a></li>
 			<li class="nav__li"><a class="nav__a" href="chats.html">
 				<span class="nav__notification badge">1</span>
-				<i class="far fa-comment fa-2x"></i></a></li>
-			<li class="nav__li"><a class="nav__a" href="find.html"><i class="fas fa-search fa-2x"></i></a>
-			</li>
+				<i class="fas fa-comment fa-2x"></i></i></a></li>
+			<li class="nav__li"><a class="nav__a" href="find.html"><i class="fas fa-search fa-2x"></i></a></li>
 			<li class="nav__li">
-				<a class="nav__a" href="option.html"><span class="nav__notification2 badge"></span><i class="fas fa-ellipsis-h fa-2x"></i></a>
-			</li>
+				<a class="nav__a" href="option.html"><span class="nav__notification2 badge2"></span><i class="fas fa-ellipsis-h fa-2x"></i></a></li>
 		</ul>
 	</nav>
 
