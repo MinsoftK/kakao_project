@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Friend screen</title>
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+	<div class="status-bar">
+		<div class="status-bar__column">
+			<span>No Service</span>
+			<i class="fas fa-wifi"></i>
+		</div>
+		<div class="status-bar__column">
+			<!--Time-->
+			<span>15:46</span>
+		</div>
+		<div class="status-bar__column">
+			<span>11%</span>
+			<!--Battery Icon-->
+			<i class="fas fa-battery-full fa-2x"></i>
+			<!--충전 Icon-->
+			<i class="fas fa-bolt"></i>
+		</div>
+	</div>
+
+	<header class="screen-header">
+		<h1 class="screen-header__title">Find</h1>
+		<div class="screen-header__icons">
+			<span><i class="fas fa-search fa-lg"></i></span>
+			<span class ="find-screen-header">
+			<i class="fas fa-cog fa-lg"></i></span>
+		</div>
+	</header>
+
+	<main class="main-screen">
+		<div class="find-icons">
+			<div class="find-icons__icon">
+				<i class="fas fa-qrcode"></i>
+				<span>QR code</span>
+			</div>
+			<div class="find-icons__icon">
+				<i class="far fa-address-book"></i>
+				<span>Add by Contacts</span>
+			</div>
+			<div class="find-icons__icon">
+				<i class="fas fa-fingerprint"></i>
+				<span>Add by ID</span>
+			</div>
+			<div class="find-icons__icon">
+				<i class="far fa-envelope"></i>
+				<span>Invite
+				</span>
+			</div>
+		</div>
+	</main>	
+
+
+	<nav class="nav">
+		<ul class="nav__ul">
+			<li class="nav__li"><a class="nav__a" href="friends.html"><i class="far fa-user fa-2x"></i></a></li>
+			<li class="nav__li"><a class="nav__a" href="chats.html">
+				<span class="nav__notification badge">1</span>
+				<i class="fas fa-comment fa-2x"></i></i></a></li>
+			<li class="nav__li"><a class="nav__a" href="find.html"><i class="fas fa-search fa-2x"></i></a></li>
+			<li class="nav__li">
+				<a class="nav__a" href="option.html"><span class="nav__notification2 badge2"></span><i class="fas fa-ellipsis-h fa-2x"></i></a></li>
+		</ul>
+	</nav>
+
+	<script src="https://kit.fontawesome.com/6a5db0a2e0.js" crossorigin="anonymous"></script>
+</body>
+</html>
