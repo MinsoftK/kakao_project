@@ -35,7 +35,7 @@ Friends.html 에서 status-bar와 nav-bar를 fixed 해놓은 상태에서 friend
 [CSS 스크롤 관련 엘리먼트 움직이지 않는 이슈](https://www.notion.so/minsoftk/39b928dcefd84677992333ed08379a42#dddc90c8e1144638a3811e0d099c1dd6)  
 위 블로그를 참고해 position : sticky 속성을 활용했다. 결국 두방법 모두 부모의 relative가 중요했다.
 
--> 1. 해결 : 아예 body의 속성을 없애버리고 component css로 넣어서 해결했다.
+-> 1. 해결 : 아예 body의 속성을 없애버리고 component css로 각각 넣어서 해결했다.
 
 
 
