@@ -1,7 +1,7 @@
 # Kakao_UIClone_Coding  
 
-* Made by Minsoftk
-기간 : 2019.05.11 ~ 현재진행중
+* Made by Minsoftk  
+기간 : 2020.06.11 ~ 현재진행중
 환경 : Apache Tomcat 8.0, Chrome 브라우저
 주제 : 커뮤니티 웹사이트 개발
 개발 : Eclipse 2019-06, Postgresql, Atom, GitHub
