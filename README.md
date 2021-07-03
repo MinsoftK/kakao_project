@@ -28,12 +28,14 @@
 
 
 ## Trouble
+### 1
 Friends.html 에서 status-bar와 nav-bar를 fixed 해놓은 상태에서 friends-display-link를 body안에 삽입했을때 계속 nav-bar 와 겹쳐져서 보이지 않는 이슈를 겪었다. body 프레임 안에서 nav-bar가 위치하지 않는걸로 인식돼 계속 겹쳐져서 보이지 않는것 같다. 따라서 absolute를 통해 부모 relative에 위치하게 만든 다음 위치를 수정시켰다.  
 <br/>
 
 [CSS 스크롤 관련 엘리먼트 움직이지 않는 이슈](https://www.notion.so/minsoftk/39b928dcefd84677992333ed08379a42#dddc90c8e1144638a3811e0d099c1dd6)  
 위 블로그를 참고해 position : sticky 속성을 활용했다. 결국 두방법 모두 부모의 relative가 중요했다.
 
--> 해결 : 아예 body의 속성을 없애버리고 component css로 넣어서 해결했다.
+-> 1. 해결 : 아예 body의 속성을 없애버리고 component css로 넣어서 해결했다.
+
 
 
