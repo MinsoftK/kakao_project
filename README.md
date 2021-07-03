@@ -1,7 +1,11 @@
-# Kokoa_Clone_Coding  
+# Kakao_UIClone_Coding  
 
-* 카카오톡 UI를 참고하며 나만의 UI를 만들면서 HTML, CSS를 학습한다. (JS는 사용되지 않는다.)
-* Updating...
+* Made by Minsoftk
+기간 : 2019.05.11 ~ 현재진행중
+환경 : Apache Tomcat 8.0, Chrome 브라우저
+주제 : 커뮤니티 웹사이트 개발
+개발 : Eclipse 2019-06, Postgresql, Atom, GitHub
+사용 언어 및 기술 : Spring Framework, JAVA(JDK 1.8), Postgresql(10.6), Html5/CSS3/Javascript, JQuery, Ajax 비동기, Bootstrap, CKEditor, Amazon RDS, EC2(가상서버 예정)
 <br/>
 <br/>
 
