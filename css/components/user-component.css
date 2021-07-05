@@ -41,7 +41,7 @@
 .user-component__img--sm {
 	width:60px;
 	height:60px;
-	border-radius: 25px;
+	border-radius: 50%;
 }
 
 .user-component__name--not-bold {
@@ -62,5 +62,6 @@
   .user-component__time {
 	margin-bottom: 10px;
 	display: block;
+	text-align: center;
   }
   
