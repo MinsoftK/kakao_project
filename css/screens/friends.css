@@ -13,10 +13,6 @@
 	color:gray;
 }
 
-.friends-screen {
-	padding:0px var(--main-left-space);
-}
-
 .friends-screen__channel {
 	margin-top:25px;
 	border-top :1px solid rgba(0, 0, 0, 0.2);

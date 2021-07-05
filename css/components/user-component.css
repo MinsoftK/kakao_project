@@ -28,9 +28,10 @@
 
 .user-component__subtitle {
 	margin-top:4px;
-	font-size:17px;
+	font-size:14px;
 	color:grey;
 	width:200px;
+	margin-top:10px;
 }
 
 .user-component--xl {
