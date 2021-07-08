@@ -36,8 +36,37 @@
 	justify-content:center;
 	align-items: center;
 	*/
+	animation:notification 0.8s ease-in-out infinite;
 }
+
+@keyframes notification {
+	0%{
+		transform: none;
+	}
+	50%{
+		transform: translateY(-10px);
+	}
+	100%{
+		transform: none;
+	}
+}
+
 .nav__notification2 {
 	position: absolute;
 	right:-5px;
+	animation:notification 0.8s ease-in-out infinite;
+	
+}
+
+@keyframes appearBtnAnimation {
+	from{
+		transform: translateY(50px);
+	}
+	to{
+		transform: none;
+	}
+}
+
+.nav__a {
+	animation: appearBtnAnimation 1s ease-in-out infinite;
 }
