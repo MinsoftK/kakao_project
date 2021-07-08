@@ -1,11 +1,13 @@
 # 🥊Kakao_Clone_Coding  
-
+* [Demo](https://minsoftk.github.io/kakao_project/)
 * Made by Minsoftk  
 
-📆 기간 : 2021.06.13 ~ 2021-07.09 (완료)
+📆 기간 : 2021.06.13 ~ 2021-07.09 (완료)  
+
 환경 : Chrome 브라우저  
-주제 : 웹 페이지 UI 개발
-[Demo](https://minsoftk.github.io/kakao_project/)
+주제 : 웹 페이지 UI 개발  
+
+
 
 <br/>
 <br/>
