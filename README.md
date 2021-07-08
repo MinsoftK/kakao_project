@@ -2,11 +2,10 @@
 
 * Made by Minsoftk  
 
-📆 기간 : 2021.06.13 ~ 현재진행중  
-
+📆 기간 : 2021.06.13 ~ 2021-07.09 (완료)
 환경 : Chrome 브라우저  
-
-주제 : 웹 사이트 UI 개발
+주제 : 웹 페이지 UI 개발
+[Demo](https://minsoftk.github.io/kakao_project/)
 
 <br/>
 <br/>
@@ -21,7 +20,7 @@
 <br/>
 
 ## 구현 목표
-* Media Query와 Animation을 적용해 세련된 웹 페이지 구현
+* Media Query와 Animation 등등 고급 Advanced CSS를 적용해 세련된 웹 페이지 구현
 <br/>
 
 ## 기술스택
@@ -60,11 +59,11 @@
 그럼 가운데 정렬이 가능하다.
 
 
-
 <br/>
 <br/>
 <br/>
 <br/>
 
-## 📕Reference
+## 📕Reference & 참고
 [Nomadcoder](https://nomadcoders.co/)
+[css mdn](https://developer.mozilla.org/ko/docs/Web/CSS/Reference)
