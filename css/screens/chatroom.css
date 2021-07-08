@@ -1,0 +1,86 @@
+#chat-screen {
+	background-color: rgb(205, 221, 252);
+	height:11000vh;
+}
+
+#chat-screen .chat-header, 
+#chat-screen .status-bar {
+	position:fixed;
+	top:0;
+	/*status-bar에도 top : 0*/
+	width:100%;
+	box-sizing: border-box;
+	background-color: rgb(205, 221, 252);
+}
+
+#chat-screen .status-bar {
+	z-index:2;
+}
+
+#chat-screen .chat-header {
+	z-index:1;
+	padding-bottom: 10px;
+}
+
+.main-chat {
+	margin-top:120px;
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+.chat__timestamp {
+	text-align: center;
+	padding:10px 15px;
+	font-size:14px;
+	border-radius: 25px;
+	color:white;
+	background-color: #92a4b2;
+	margin-bottom: 25px;
+}
+
+.message-row {
+	width:100%;
+	display:flex;
+}
+
+.message-row img {
+	width:70px;
+	height:70px;
+	border-radius: 50%;
+	margin-right:15px;
+}
+
+.message__author {
+	margin-bottom:12px;
+	
+	/*block을 넣어야지 margin을 넣을 수 있다.
+	span은 inline이기 때문에*/
+	display:block;
+}
+
+.message__time {
+	font-size:400px;
+}
+
+.message__info {
+	display:flex;
+	align-items: flex-end;
+}
+
+.message__pop {
+	background-color: white;
+	padding:10px 15px;
+	font-size:18px;
+	border-radius: 15px;
+	border-top-left-radius: 0px;
+	margin-right:3px;
+}
+
+.message__time,
+.message__author {
+  opacity: 0.8;
+  font-size: 14px;
+}
+
