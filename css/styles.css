@@ -7,6 +7,7 @@
 @import "components/badge.css";
 @import "components/icon-row.css";
 @import "components/chat-header.css";
+@import "components/type.css";
 /* Screens	*/
 @import "screens/reset.css";
 @import "screens/welcome-page.css";
