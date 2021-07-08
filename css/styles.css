@@ -8,6 +8,8 @@
 @import "components/icon-row.css";
 @import "components/chat-header.css";
 @import "components/type.css";
+@import "components/no-mobile.css";
+
 /* Screens	*/
 @import "screens/reset.css";
 @import "screens/welcome-page.css";
