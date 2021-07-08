@@ -63,6 +63,10 @@
 
 <br/>
 <br/>
+
+## 추후 추가할 것
+* index.html에서 sign up page 만들고 Session Storage 이용해 로그인 기능 구현하기.
+* DB 만들어서 DB 정보 입력하기.
 <br/>
 <br/>
 
