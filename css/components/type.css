@@ -8,6 +8,7 @@
 	padding:5px 25px;
 	box-sizing: border-box;
 	align-items: center;
+	trasition:all 0.3s ease-in-out;
 }
 
 .type .type__column:first-child {
@@ -25,6 +26,7 @@
 	width:100%;
 	border:1px solid rgba(0, 0, 0, 0.3);
 	border-radius: 20px;
+	transition: all 0.3s ease-in-out;
 }
 
 .type__icon,
@@ -58,4 +60,35 @@
 }
 .type i {
 	opacity: 0.7;
+}
+
+.type__column button:foucs,
+.type__column button:active{
+	outline:none;
+}
+
+.type:focus-within .type__column:first-child{
+	opacity: 0;
+	visibility: hidden;
+}
+
+.type .type__column:first-child,
+.type .fa-smile-wink,
+.type button{
+	transition: opacity 0.5s ease-in-out;
+}
+
+.type:focus-within .type__column:first-child,
+.type:focus-within .fa-smile-wink,
+.type:focus-within button{
+	opacity:0;
+}
+.type:focus-within input {
+	width:90vw;
+	transform:translateX(-10%) translateY(-80px);
+}
+
+.type:focus-within {
+	transform:translateY(80px);
+	/*이 트랜스폼을 .type에서 트랜지션으로 정해줘야 함.*/
 }

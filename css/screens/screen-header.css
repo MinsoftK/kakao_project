@@ -15,3 +15,31 @@
 .screen-header__icons span {
 	margin-left: 25px;
 }
+
+@keyframes rotate-cog {
+	from{
+		transform:none;
+	}
+	to{
+		transform: rotateZ(360deg)
+	}
+}
+
+
+@keyframes icon-shake {
+	from{
+		transform:rotateY(360deg);
+	}
+	to{
+		transform: none;
+	}
+}
+
+
+.fa-cog:hover{
+	animation: rotate-cog 1s linear infinite;
+}
+
+.screen-header__icons i:hover {
+	animation:icon-shake 1s ease-in-out infinite;
+}
