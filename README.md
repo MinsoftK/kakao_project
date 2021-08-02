@@ -1,4 +1,4 @@
-# 🥊Kakao_Clone_Coding  
+# 🥊 Kakao_Clone_Coding  
 * [Demo](https://minsoftk.github.io/kakao_project/)
 * Made by Minsoftk  
 
@@ -34,7 +34,7 @@
 <br/>
 <br/>
 
-## 🔔트러블슈팅 & 새로 알게된 사실
+## 🔔 트러블슈팅 & 새로 알게된 사실
 ### 1) Fixed 관련
  Friends.html 에서 status-bar와 nav-bar를 fixed 해놓은 상태에서 friends-display-link를 body안에 삽입했을때 계속 nav-bar 와 겹쳐져서 보이지 않는 이슈를 겪었다. body 프레임 안에서 nav-bar가 위치하지 않는걸로 인식돼 계속 겹쳐져서 보이지 않는것 같다. 따라서 absolute를 통해 부모 relative에 위치하게 만든 다음 위치를 수정시켰다.  
 <br/>
@@ -66,7 +66,8 @@
 
 ## 추후 추가할 것
 * index.html에서 sign up page 만들고 Session Storage 이용해 로그인 기능 구현하기.
-* DB 만들어서 DB 정보 입력하기.
+
+
 <br/>
 <br/>
 
