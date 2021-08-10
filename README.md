@@ -50,7 +50,9 @@
 
 ## 실행화면
 
-![](https://github.com/MinsoftK/kakao_project/blob/gh-pages/img/main.png)
+- 로그인화면
+  CSS만 입력이 되어 있기에 아무 입력을 해고 로그인과 회원가입 버튼을 눌러도 메인페이지로 이동한다.
+  ![](https://github.com/MinsoftK/kakao_project/blob/master/img/main.png?raw=true)
 
 ## 🔔트러블슈팅 & 새로 알게된 사실
 
