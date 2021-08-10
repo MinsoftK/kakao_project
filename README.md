@@ -38,6 +38,10 @@
 <br/>
 <br/>
 
+## 실행화면
+
+![](https://github.com/MinsoftK/kakao_project/blob/gh-pages/img/main.png)
+
 ## 🔔트러블슈팅 & 새로 알게된 사실
 
 ### 1) Fixed 관련
