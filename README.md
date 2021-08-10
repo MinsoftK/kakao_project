@@ -1,7 +1,17 @@
+<<<<<<< HEAD
+
 # 🥊Kakao_Clone_Coding
+
+=======
+
+# 🥊 Kakao_Clone_Coding
 
 - [Demo](https://minsoftk.github.io/kakao_project/)
 - Made by Minsoftk
+  > > > > > > > 5dbad2384a819b545402c401954b8ce6a14818a7
+
+* [Demo](https://minsoftk.github.io/kakao_project/)
+* Made by Minsoftk
 
 📆 기간 : 2021.06.13 ~ 2021-07.09 (완료)
 
@@ -75,6 +85,8 @@ Friends.html 에서 status-bar와 nav-bar를 fixed 해놓은 상태에서 friend
 <br/>
 <br/>
 
+<<<<<<< HEAD
+
 ## 추후 추가할 것
 
 - index.html에서 sign up page 만들고 Session Storage 이용해 로그인 기능 구현하기.
@@ -87,3 +99,12 @@ Friends.html 에서 status-bar와 nav-bar를 fixed 해놓은 상태에서 friend
 
 [Nomadcoder](https://nomadcoders.co/)
 [css mdn](https://developer.mozilla.org/ko/docs/Web/CSS/Reference)
+=======
+
+## 📕Reference & 참고
+
+[Nomadcoder](https://nomadcoders.co/)  
+[css mdn](https://developer.mozilla.org/ko/docs/Web/CSS/Reference)  
+https://skydoor2019.tistory.com/8
+
+> > > > > > > 5dbad2384a819b545402c401954b8ce6a14818a7
