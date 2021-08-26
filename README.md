@@ -79,14 +79,6 @@ Friends.html 에서 status-bar와 nav-bar를 fixed 해놓은 상태에서 friend
 <br/>
 <br/>
 
-## 추후 추가할 것
-
-- ~~index.html에서 sign up page 만들고 Session Storage 이용해 로그인 기능 구현하기.~~(새로운 프로젝트로 대체)
-- ~~DB 만들어서 DB 정보 입력하기.~~ (새로운 프로젝트로 대체)
-- ~~JS가 없어서 스마트한 동작을 하지 않는다. JS에 관련된 기능도 넣어보기~~(새로운 프로젝트로 대체)
-  <br/>
-  <br/>
-
 
 ## 📕Reference & 참고
 
