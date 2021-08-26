@@ -8,7 +8,6 @@
 
 - [Demo](https://minsoftk.github.io/kakao_project/)
 - Made by Minsoftk
-  > > > > > > > 5dbad2384a819b545402c401954b8ce6a14818a7
 
 * [Demo](https://minsoftk.github.io/kakao_project/)
 * Made by Minsoftk
