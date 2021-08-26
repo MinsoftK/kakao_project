@@ -1,13 +1,6 @@
-<<<<<<< HEAD
 
-# 🥊Kakao_Clone_Coding
-
-=======
 
 # 🥊 Kakao_Clone_Coding
-
-- [Demo](https://minsoftk.github.io/kakao_project/)
-- Made by Minsoftk
 
 * [Demo](https://minsoftk.github.io/kakao_project/)
 * Made by Minsoftk
